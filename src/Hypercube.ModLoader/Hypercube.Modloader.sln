@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hypercube.Modloader", "Hypercube.Modloader.csproj", "{048FAA6C-DFA3-0DD0-0892-04AA2EC1723F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{048FAA6C-DFA3-0DD0-0892-04AA2EC1723F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{048FAA6C-DFA3-0DD0-0892-04AA2EC1723F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{048FAA6C-DFA3-0DD0-0892-04AA2EC1723F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{048FAA6C-DFA3-0DD0-0892-04AA2EC1723F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {99D9A2A3-0C87-40E7-A802-B1BC3EAB9286}
+	EndGlobalSection
+EndGlobal
