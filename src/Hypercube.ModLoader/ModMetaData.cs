@@ -1,5 +1,9 @@
-﻿namespace Hypercube.ModLoader;
+﻿using System.Text;
+using JetBrains.Annotations;
 
+namespace Hypercube.ModLoader;
+
+[PublicAPI]
 public readonly struct ModMetaData
 {
     public readonly string Name;
@@ -17,5 +21,19 @@ public readonly struct ModMetaData
         Source = source;
         Tags = tags;
         License = license;
+    }
+    
+    public override string ToString()
+    {
+        var sb = new StringBuilder();
+
+        sb.AppendLine($"[{Name}]");
+        sb.AppendLine($"- Description: {Description}");
+        sb.AppendLine($"- Authors: {(Authors is { Length: > 0 } ? string.Join(", ", Authors) : "Unknown")}");
+        sb.AppendLine($"- License: {License}");
+        sb.AppendLine($"- Source: {Source}");
+        sb.Append($"- Tags: {(Tags is { Length: > 0 } ? string.Join(", ", Tags) : "None")}");
+        
+        return sb.ToString();
     }
 }

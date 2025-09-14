@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hypercube.ModLoader", "src\Hypercube.ModLoader\Hypercube.ModLoader.csproj", "{FFE12775-9F19-48DF-9FDE-4F7782B82CF6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{71BE5397-F15F-44D0-BCA9-C3B856D1D427}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{FFE12775-9F19-48DF-9FDE-4F7782B82CF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FFE12775-9F19-48DF-9FDE-4F7782B82CF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FFE12775-9F19-48DF-9FDE-4F7782B82CF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71BE5397-F15F-44D0-BCA9-C3B856D1D427}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71BE5397-F15F-44D0-BCA9-C3B856D1D427}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71BE5397-F15F-44D0-BCA9-C3B856D1D427}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71BE5397-F15F-44D0-BCA9-C3B856D1D427}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -4,7 +4,7 @@ public readonly struct ModId : IEquatable<ModId>
 {
     public static readonly ModId Invalid = new(string.Empty);
 
-    private readonly string _value;
+    private readonly string _value = string.Empty;
 
     public ModId(string value)
     {
@@ -41,6 +41,11 @@ public readonly struct ModId : IEquatable<ModId>
         return !a.Equals(b);
     }
 
+    public static implicit operator ModId(string value)
+    {
+        return new ModId(value);
+    }
+    
     public static implicit operator string(ModId id)
     {
         return id._value;
