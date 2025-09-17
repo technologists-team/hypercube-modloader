@@ -2,12 +2,12 @@ using System.Reflection;
 
 namespace Hypercube.ModLoader;
 
-public readonly struct ModRegistry
+public readonly struct ModRegistry<T> where T : IMod
 {
-    public readonly IMod Instance;
+    public readonly T Instance;
     public readonly Assembly Assembly;
 
-    public ModRegistry(IMod instance, Assembly assembly)
+    public ModRegistry(T instance, Assembly assembly)
     {
         Instance = instance;
         Assembly = assembly;
