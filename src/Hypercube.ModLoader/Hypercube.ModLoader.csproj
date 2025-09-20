@@ -10,7 +10,7 @@
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageIcon>assets/logo.png</PackageIcon>
 
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <Authors>TornadoTech</Authors>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <RepositoryUrl>https://github.com/technologists-team/hypercube-modloader</RepositoryUrl>
@@ -23,7 +23,7 @@
   </ItemGroup>
   
   <ItemGroup>
-    <PackageReference Include="Hypercube.Utilities" Version="1.0.7" />
+    <PackageReference Include="Hypercube.Utilities" Version="1.0.8" />
     <PackageReference Include="JetBrains.Annotations" Version="2025.2.2" />
   </ItemGroup>
 
